@@ -1,0 +1,42 @@
+.mainCont{
+    background-image: linear-gradient(90deg, #333C45 0%, #363D47 35%,#72635E, #CBA16E 100%);
+    width: 61rem;
+    height: 20rem;
+     border-radius: 15px;
+     margin-left: 7rem;
+     margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+
+}
+.firstDiv{
+    margin-left: 4rem;
+
+}
+
+.firstDiv p{
+    padding-top:3rem ;
+    color: #be601d;
+}
+
+.firstDiv h1{
+    padding-top:-2rem ;
+    color: #FFFFFF;
+}
+
+.firstDiv button{
+    background-color:#be601d ;
+    width: 10rem;
+    height: 2.70rem;
+    border-radius: 10px;
+    border-color: #be601d;
+}
+
+.secondDiv{
+    background-color:  white;
+    width: 17rem;
+    height: 21rem;
+    border-color: #8a3e08;
+    border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+.mainCont{
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 12rem;
+    margin-top: 18rem;
+}
+
+.pattern {
+    margin-left: 11rem;
+    margin-top: 3rem;
+    width: 20rem;
+    height: 23rem;
+    background: linear-gradient( 90deg, #333C45 0%, #363D47 35%,#72635E, #CBA16E 100%);
+}
+
+.mainText p{
+    color: #8a3e08;
+}
+
+ .mainText .Activate{
+    color: black;
+}
+

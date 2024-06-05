@@ -1,0 +1,29 @@
+.mainCont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+    width: 83vw;
+    height: 70vh;
+    background-image: linear-gradient(90deg, #e79b66 0%, #eeb8c5 35%, #eca4b3, #CBA16E 100%);
+    gap: 3rem;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.mainDiv img{
+    width: 5rem;
+    height: 5rem;
+}
+
+hr{
+    width: 50rem;
+    margin-left:-0.40rem ;
+
+}
+
+.divWrapper{
+   margin-left: 5rem;
+    margin-top: 3rem;
+}

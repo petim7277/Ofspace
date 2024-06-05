@@ -1,0 +1,43 @@
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    width: 83vw;
+    height: 70vh;
+    background-image: linear-gradient(90deg, #e79b66 0%, #eeb8c5 35%, #eca4b3, #CBA16E 100%);
+    gap: 12rem;
+}
+
+.divWrap{
+    margin-left: 7rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.square{
+    background-image: linear-gradient(90deg, #50be19 0%, rgb(238, 205, 7) 35%, rgba(3, 6, 76, 0.51), #dc0505 100%);
+    width: 7rem;
+    height: 7rem;
+    border-color: black;
+    border-radius: 12px;
+}
+.divCont{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.divCont h6{
+    margin-top: -0.45rem;
+}
+
+.imgDiv{
+    margin-top: 2rem;
+    width: 25rem;
+    height: 23rem;
+    background-image: linear-gradient(90deg, #50be19 0%, rgb(238, 205, 7) 35%, rgba(3, 6, 76, 0.51), #dc0505 100%);
+    border-radius: 15px;
+}
+

@@ -1,0 +1,32 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    margin-top: 6rem;
+    gap: 6rem;
+}
+
+.divCont{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.divCont .divText p{
+    width: 10rem;
+    height: 2rem;
+    border: 2px solid #8a3e08;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.semiCont p{
+   color: #8a3e08;
+
+}
+
+.pattern {
+    margin-left: 11rem;
+    width: 20rem;
+    height: 25rem;
+    background: linear-gradient( 90deg, #333C45 0%, #363D47 35%,#72635E, #CBA16E 100%);
+}

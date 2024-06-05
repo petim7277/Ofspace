@@ -1,0 +1,79 @@
+.mainDiv {
+    background-image: linear-gradient(90deg, #333C45 0%, #363D47 35%, #72635E, #CBA16E 100%);
+     margin-top: 7rem;
+
+}
+
+.mainImg{
+    width: 3rem;
+    height: 3rem;
+
+}
+.mainText .mainTextHeader {
+    font-weight: bolder;
+    font-family:  AvantGrande, cursive;
+    color: #FFFFFF;
+}
+.mainText p{
+    font-family: DreamingOut-loud, cursive;
+    font-weight: 500;
+    font-size: small;
+    font-style: inherit;
+
+}
+
+.logoWrap{
+    display: flex;
+    padding-top: 1.20rem;
+
+}
+.logoWrap h1{
+    margin: 0.3rem;
+    padding-left: -15rem;
+    font-size: 1.65rem;
+    font-family: Verdana, serif;
+}
+
+.logoWrap p{
+    margin-top: -0.5rem;
+    padding-left: 1rem
+
+}
+
+.imgDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgDiv img{
+    width: 3.50rem;
+    height: 3.50rem;
+}
+
+.wrapperDiv{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.firstDiv p{
+    color: #FFFFFF;
+}
+
+.secondDiv{
+    display: flex;
+    flex-direction: column;
+    gap: -0.45rem;
+}
+
+.secondDiv p{
+    color: #FFFFFF;
+}
+
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 7rem;
+     margin-top: 1rem;
+}
