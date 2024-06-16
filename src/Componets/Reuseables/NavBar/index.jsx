@@ -7,11 +7,19 @@ const NavBar = ()=>{
         query: '(min-width: 1224px)'
     });
 
-    return(
-        <div>
-            {isDesktopOrLaptop ? <DesktopNavbar /> : <MobileNavbar />}
-        </div>
+    let navbar;
+    if (isDesktopOrLaptop) {
+        navbar = <DesktopNavbar />;
+    } else {
+        navbar = <MobileNavbar />;
+    }
 
-    )
+    return (
+        <div>
+            {navbar}
+        </div>
+    );
+
+
 }
 export  default NavBar;
