@@ -19,7 +19,7 @@ const MobileNavbar = ()=>{
                     </div>
 
                     <div className={styles.mainTexts}>
-                        <h1 className={styles.mainTextHeaders}>Ofspace</h1>
+                        <h4 className={styles.mainTextHeaders}>Ofspace</h4>
                         <p>Digital  Agency</p>
                     </div>
 
