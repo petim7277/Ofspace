@@ -7,7 +7,13 @@
 }
 
 @media  (max-width :375px) {
-
+.mainCont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    gap: 2rem;
+}
 }
 
 .divCont{
@@ -15,12 +21,26 @@
     flex-direction: row;
     gap: 2rem;
 }
+
+@media  (max-width :375px) {
+    .divCont{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
 .divCont .divText p{
     width: 10rem;
     height: 2rem;
     border: 2px solid #8a3e08;
     border-radius: 8px;
     text-align: center;
+}
+
+@media  (max-width :375px) {
+.divText{
+    padding-top: 1rem;
+}
 }
 
 .semiCont p{
@@ -33,4 +53,12 @@
     width: 20rem;
     height: 25rem;
     background: linear-gradient( 90deg, #333C45 0%, #363D47 35%,#72635E, #CBA16E 100%);
+}
+
+@media  (max-width :375px) {
+    .pattern{
+        width: 12rem;
+        height: 10rem;
+        margin-left: -0.20rem;
+    }
 }
