@@ -6,6 +6,10 @@
     gap: 6rem;
 }
 
+@media  (max-width :375px) {
+
+}
+
 .divCont{
     display: flex;
     flex-direction: row;
