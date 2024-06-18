@@ -9,6 +9,17 @@
     gap: 1rem;
 }
 
+@media  (max-width :375px) {
+    .mainCont{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        width: 67vw;
+        height: 30vh;
+    }
+}
+
 .firstDiv{
     width: 20em;
     height: 21rem;
@@ -19,17 +30,43 @@
     margin-top: 3rem;
 
 }
+@media  (max-width :375px) {
 
+    .firstDiv{
+        width: 5rem;
+        height:5rem ;
+        margin-left: 0.20rem;
+        margin-top: 1rem;
+
+    }
+}
+
+@media  (max-width :375px) {
+    h1{
+        font-size: 0.68rem;
+        margin-left: 4rem;
+        width: 15rem;
+    }
+}
 .secondDiv{
-    width: 15em;
+    width: 15rem;
     height: 13rem;
     background-color: #FFFFFF;
     border-radius: 10px;
     border: 3px solid #8a3e08;
-    margin-top: 3rem;
+    margin-top: 6rem;
+    margin-left: 1rem;
 
 }
 
+@media  (max-width :375px) {
+    .secondDiv{
+        width: 4rem;
+        height: 3rem;
+        margin-left: 7rem;
+        margin-top: 2rem;
+    }
+}
 .thirdDiv{
     width: 15em;
     height: 13rem;
@@ -37,7 +74,16 @@
     border-radius: 10px;
     border: 3px solid #8a3e08;
     margin-top: 11rem;
-     margin-left: -14rem;
+     margin-left: -3rem;
+}
+
+@media  (max-width :375px) {
+    .thirdDiv{
+
+        display: none;
+        background: none;
+        border: none;
+    }
 }
 .text{
     display: flex;
@@ -45,8 +91,41 @@
     gap :2rem;
 }
 
+@media  (max-width :375px) {
+    .text{
+        gap: 0.10rem;
+        width: 5rem;
+    }
+}
+
+@media  (max-width :375px) {
+    .better{
+        margin-top: -5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media  (max-width :375px) {
+    .text p {
+        font-size: 0.65rem;
+        padding-left: 4rem;
+    }
+}
+@media  (max-width :375px) {
+    .bank{
+        margin-left: -2rem;
+    }
+}
 .mainCont hr{
-    width: 30rem;
-    margin-top: -0.65rem;
+    width: 21rem;
+    margin-top: 0.80rem;
      background-color: #61dafb;
+}
+
+@media  (max-width :375px) {
+    .mainCont hr{
+        margin-top: 0.50rem;
+        width: 7rem;
+        margin-left: 4rem;
+    }
 }

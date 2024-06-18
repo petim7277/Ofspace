@@ -7,11 +7,11 @@ const ABetter = ()=>{
 
               </div>
 
-             <div>
+             <div className={styles.better}>
                  <h1>A better rate is waiting</h1>
                  <div className={styles.text}>
                      <p>Mortgage </p>
-                     <p> Banking</p>
+                     <p className={styles.bank}> Banking</p>
 
                  </div>
                  <hr></hr>
