@@ -25,30 +25,14 @@ const MobileNavbar = ()=>{
                 <div><button><p>Sign Up</p></button></div>
             </div>
             {/* eslint-disable-next-line no-undef */}
-            <button  className={styles.cancel}>x</button>
+            <button onClick={toggleNavLinks} className={styles.cancel}>x</button>
         </div>
     );
 
     return(
 
         <div className={styles.mainDiv}>
-         <div className={styles.hamWrap}>
-                 <button onClick= {toggleNavLinks}> ☰</button>
-         </div>
-            {isOpen && navLinks()}
-
-        {/*<div className={styles.menuBar}>*/}
-        {/*    <div className={styles.navCont}>*/}
-        {/*        <div className={styles.navText}><p>About</p></div>*/}
-        {/*        <div className={styles.navText}><p>Contact us</p></div>*/}
-        {/*        <div className={styles.navText}><p> Help</p></div>*/}
-        {/*        <div className={styles.navText}><p> Search</p></div>*/}
-        {/*        <div > <p>Log in</p></div>*/}
-        {/*        <div ><button ><p>Sign Up</p></button></div>*/}
-        {/*    </div>*/}
-
-
-        {/*</div>*/}
+            <div className={styles.navWrapper}>
 
             <div className={styles.logoWrapper}>
 
@@ -61,8 +45,13 @@ const MobileNavbar = ()=>{
                     <p>Digital  Agency</p>
                 </div>
 
-            </div>
+                <div className={styles.hamWrap}>
+                    <button onClick= {toggleNavLinks}> ☰</button>
+                </div>
+                {isOpen && navLinks()}
 
+            </div>
+            </div>
             <div className={styles.heroText}>
                 <h1>Guiding you<span style={{display:"block"}}></span> through life's<span style={{display:"block"}}></span> financial journey</h1>
                 <p>Grow your money faster<span style={{display:"block"}}> with smart tools in an  </span>

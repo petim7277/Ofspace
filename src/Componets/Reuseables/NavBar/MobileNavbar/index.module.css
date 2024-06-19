@@ -47,13 +47,13 @@ body{
 }
 @media  (min-width: 285px) {
 .hamWrap {
-    background-color: #000000;
+    background: none;
     height: 3.30rem;
     width: 21.50rem;
     position: relative;
     margin: 0;
     padding-left: 1rem;
-    padding-top: 1rem;
+    /*padding-top: 1rem;*/
 }
 }
 
@@ -126,7 +126,7 @@ body{
           display: flex;
           flex-direction: row;
           padding-top: 3rem;
-          gap: 2rem;
+          gap: 8rem;
           background-image: linear-gradient(90deg, #e79b66 0%, rgba(134, 137, 210, 0.51) 35%, #cbfd7c, #6457ff 100%);
 
       }
@@ -159,24 +159,20 @@ body{
      }
  }
 
- /*.navConts{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    gap: 2rem;*/
-/*    padding-left: 2rem;*/
-/*}*/
+
 
 .cancel {
-    background-color: #FFFFFF;
+    background-color: #000000;
     border: 3px solid #cccccc;
     border-top: groove;
     border-bottom: groove;
     border-radius: 10px;
-    color: #000000;
+    color: #FFFFFF;
     height: 2.50rem;
     width: 2.50rem;
     font-weight: bolder;
     font-size: 20px;
+     margin-top: -2rem;
 }
 .navCont p {
    color: #FFFFFF;
