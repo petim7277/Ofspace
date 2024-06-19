@@ -42,6 +42,7 @@ body{
 @media  (min-width: 285px) {
     .mainDiv{
         width: 22.50rem;
+        height: 35rem;
     }
 }
 .logoWrapper{
@@ -52,6 +53,7 @@ body{
 @media  (min-width: 285px) {
     .logoWrapper{
         padding-top: 3rem;
+        padding-left: 1rem;
     }
 }
 .logoImg{

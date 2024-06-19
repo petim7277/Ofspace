@@ -8,12 +8,12 @@ import YourPerfect from "./YourPerfect";
 const Features = ()=>{
     return(
         <>
-        <HeroSection/>
-        <GuidanceSection/>
-        <ABetter/>
-        <MortgageRate/>
-        <Reviews/>
-        <YourPerfect/>
+        {/*<HeroSection/>*/}
+        {/*<GuidanceSection/>*/}
+        {/*<ABetter/>*/}
+        {/*<MortgageRate/>*/}
+        {/*<Reviews/>*/}
+        {/*<YourPerfect/>*/}
         </>
     )
 }
