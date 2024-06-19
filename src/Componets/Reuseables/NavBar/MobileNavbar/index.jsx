@@ -9,18 +9,7 @@ const MobileNavbar = ()=>{
 
     return(
         <div className={styles.mainDiv}>
-            <div className={styles.logoWrapper}>
 
-                <div >
-                    <img src={logo} alt={"OfSpace Company Logo"} className={styles.logoImg}/>
-                </div>
-
-                <div className={styles.logoText}>
-                    <h1 className={styles.logoTextHeader}>Ofspace</h1>
-                    <p>Digital  Agency</p>
-                </div>
-
-            </div>
 
         <div className={styles.menuBar}>
             <div className={styles.navCont}>
@@ -36,6 +25,20 @@ const MobileNavbar = ()=>{
             </div>
 
         </div>
+
+            <div className={styles.logoWrapper}>
+
+                <div >
+                    <img src={logo} alt={"OfSpace Company Logo"} className={styles.logoImg}/>
+                </div>
+
+                <div className={styles.logoText}>
+                    <h1 className={styles.logoTextHeader}>Ofspace</h1>
+                    <p>Digital  Agency</p>
+                </div>
+
+            </div>
+
             <div className={styles.heroText}>
                 <h1>Guiding you<span style={{display:"block"}}></span> through life's<span style={{display:"block"}}></span> financial journey</h1>
                 <p>Grow your money faster<span style={{display:"block"}}> with smart tools in an  </span>

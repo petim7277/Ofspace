@@ -16,23 +16,65 @@
     padding:0;
 }
 
+@media  (min-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+body{
+    min-height: 100vh;
+}
+
+@media  (min-width: 285px) {
+    body{
+        min-height: 100vh;
+    }
+
+}
+
 .mainDiv{
     width: 25rem;
     background-image: linear-gradient(90deg, #333C45 0%, #363D47 35%,#72635E, #CBA16E 100%);
 }
+
+@media  (min-width: 285px) {
+    .mainDiv{
+        width: 19.33rem;
+    }
+}
 .logoWrapper{
     display: flex;
     flex-direction: row;
+}
+
+@media  (min-width: 285px) {
+    .logoWrapper{
+        padding-top: 3rem;
+    }
 }
 .logoImg{
     width: 2rem;
     height: 2rem;
 }
 
+
 .logoText .logoTextHeader{
     color: #FFFFFF;
     font-family: Verdana, serif;
     font-size: 24px;
+
+}
+
+@media  (min-width: 285px) {
+    .logoText .logoTextHeader{
+        color: #FFFFFF;
+        font-family: Verdana, serif;
+        font-size: 24px;
+        margin-left: 0.25rem;
+
+    }
 }
 
 .logoText  p{
@@ -46,6 +88,16 @@
     flex-direction: row;
     padding-top: 3rem;
     gap: 2rem;
+}
+
+ @media  (min-width: 285px) {
+     .menuBar{
+         display: flex;
+         flex-direction: row;
+         padding-top: 3rem;
+         gap: 2rem;
+         background-color: #000000;
+     }
 }
 
 .navCont{
@@ -82,6 +134,12 @@
 .heroText{
  padding-top: 2rem;
 }
+@media  (min-width: 285px) {
+    .heroText{
+        padding-top: 3rem;
+        margin-left: -3rem;
+    }
+}
 .heroText h1{
     font-size: 2rem;
     font-family: "Britanica",cursive;
@@ -95,6 +153,19 @@
     font-size:1rem ;
     padding-left: 2rem;
     padding-top: 1rem;
+}
+
+@media  (min-width: 285px) {
+    .heroText p {
+        font-size: 0.85rem;
+        width: 14rem;
+    }
+}
+
+@media  (min-width: 285px) {
+    .heroText p{
+        padding-left: 6rem;
+    }
 }
 
 .mainDiv .tabCont{
