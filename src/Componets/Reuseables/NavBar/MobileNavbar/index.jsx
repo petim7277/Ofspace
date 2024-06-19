@@ -3,28 +3,42 @@ import logo from "../../../../Assets/download.png";
 import arrow from "../../../../Assets/arrows.png";
 import piggy from "../../../../Assets/piggy.png";
 import bank from "../../../../Assets/bank.png";
-import {useState} from "react";
+import hamburger from  "../../../../Assets/hamburger.png"
 
 const MobileNavbar = ()=>{
+     const navLinks = ()=>{
+         return (<div className={styles.menuBar}>
+             <div className={styles.navCont}>
+                 <div className={styles.navText}><p>About</p></div>
+                 <div className={styles.navText}><p>Contact us</p></div>
+                 <div className={styles.navText}><p> Help</p></div>
+                 <div className={styles.navText}><p> Search</p></div>
+                 <div > <p>Log in</p></div>
+                 <div ><button ><p>Sign Up</p></button></div>
+             </div>
+
+
+         </div>)
+     }
 
     return(
         <div className={styles.mainDiv}>
+         <div className={styles.hamWrap}>
+                 <button onClick={navLinks}>☰</button>
+         </div>
+
+        {/*<div className={styles.menuBar}>*/}
+        {/*    <div className={styles.navCont}>*/}
+        {/*        <div className={styles.navText}><p>About</p></div>*/}
+        {/*        <div className={styles.navText}><p>Contact us</p></div>*/}
+        {/*        <div className={styles.navText}><p> Help</p></div>*/}
+        {/*        <div className={styles.navText}><p> Search</p></div>*/}
+        {/*        <div > <p>Log in</p></div>*/}
+        {/*        <div ><button ><p>Sign Up</p></button></div>*/}
+        {/*    </div>*/}
 
 
-        <div className={styles.menuBar}>
-            <div className={styles.navCont}>
-                <div className={styles.navText}><p>About</p></div>
-                <div className={styles.navText}><p>Contact us</p></div>
-                <div className={styles.navText}><p> Help</p></div>
-                <div className={styles.navText}><p> Search</p></div>
-            </div>
-
-            <div className={styles.navConts}>
-                <div > <p>Log in</p></div>
-                <div ><button ><p>Sign Up</p></button></div>
-            </div>
-
-        </div>
+        {/*</div>*/}
 
             <div className={styles.logoWrapper}>
 
