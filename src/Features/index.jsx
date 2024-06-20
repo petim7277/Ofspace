@@ -9,7 +9,7 @@ const Features = ()=>{
     return(
         <>
         <MiddleSection/>
-        {/*<GuidanceSection/>*/}
+        <GuidanceSection/>
         {/*<ABetter/>*/}
         {/*<MortgageRate/>*/}
         {/*<Reviews/>*/}

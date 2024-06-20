@@ -38,6 +38,12 @@
 }
 
 @media  (max-width :375px) {
+    .divCont .divText p {
+
+    }
+}
+
+@media  (max-width :375px) {
 .divText{
     padding-top: 1rem;
 }
