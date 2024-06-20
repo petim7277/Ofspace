@@ -14,16 +14,16 @@ const MortgageRate = ()=>{
                     </div>
 
                     <div className={styles.divCont}>
-                    <div>
+                    <div className={styles.firstDiv}>
                         <p>DEBT</p>
                         <h6>Older couples discuss<br/> information on laptop <br/>3mins read &#8594;</h6>
                     </div>
 
-                    <div>
+                    <div className={styles.secondDiv}>
                         <p>DEBT</p>
                         <h6>Older couples discuss<br/> information on laptop <br/>3mins read &#8594;</h6>
                     </div>
-                    <div>
+                    <div className={styles.thirdDiv}>
                         <p>DEBT</p>
                         <h6>Older couples discuss<br/> information on laptop <br/>3mins read &#8594;</h6>
                     </div>

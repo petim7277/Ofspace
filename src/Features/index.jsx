@@ -11,7 +11,7 @@ const Features = ()=>{
         <MiddleSection/>
         <GuidanceSection/>
         <ABetter/>
-        {/*<Mortga geRate/>*/}
+        <MortgageRate/>
         {/*<Reviews/>*/}
         {/*<YourPerfect/>*/}
         </>
