@@ -50,10 +50,8 @@ body{
     background: none;
     height: 3.30rem;
     width: 21.50rem;
-    position: relative;
-    margin: 0;
     padding-left: 1rem;
-    /*padding-top: 1rem;*/
+
 }
 }
 
@@ -69,6 +67,7 @@ body{
       width: 2.50rem;
       font-weight: bolder;
       font-size: 20px;
+
 
 
 
@@ -120,17 +119,31 @@ body{
      padding-top: 3rem;
      gap: 2rem;
  }
+ @keyframes __bounceInDown {
+    20%{background-image: linear-gradient(#FFFFFF,#cccccc, #CBA16E)}
+ }
+
+
 
   @media  (min-width: 285px) {
       .menuBar{
           display: flex;
           flex-direction: row;
-          padding-top: 3rem;
-          gap: 8rem;
-          background-image: linear-gradient(90deg, #e79b66 0%, rgba(134, 137, 210, 0.51) 35%, #cbfd7c, #6457ff 100%);
+          gap: 13rem;
+          background-color: black;
+          width: 22.45rem;
+          justify-content: center;
+          justify-items: center;
+          align-content: center;
+          border-radius: 10px;
+          animation-name: __bounceInDown;
+          animation-duration: 4s;
 
       }
  }
+
+
+
 
  .navCont{
      display: flex;
@@ -143,6 +156,7 @@ body{
      justify-content: center;
      text-align: center;
      justify-items: center;
+
 
 
 

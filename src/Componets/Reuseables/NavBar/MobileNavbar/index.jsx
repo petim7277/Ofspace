@@ -24,7 +24,7 @@ const MobileNavbar = ()=>{
                 <div><p>Log in</p></div>
                 <div><button><p>Sign Up</p></button></div>
             </div>
-            {/* eslint-disable-next-line no-undef */}
+
             <button onClick={toggleNavLinks} className={styles.cancel}>x</button>
         </div>
     );
@@ -48,9 +48,13 @@ const MobileNavbar = ()=>{
                 <div className={styles.hamWrap}>
                     <button onClick= {toggleNavLinks}> ☰</button>
                 </div>
-                {isOpen && navLinks()}
-
             </div>
+
+                <div className={styles.display}>
+                    {isOpen && navLinks()}
+
+                </div>
+
             </div>
             <div className={styles.heroText}>
                 <h1>Guiding you<span style={{display:"block"}}></span> through life's<span style={{display:"block"}}></span> financial journey</h1>
