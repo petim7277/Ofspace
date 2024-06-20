@@ -50,7 +50,7 @@ body{
     background: none;
     height: 3.30rem;
     width: 21.50rem;
-    padding-left: 1rem;
+    margin-left: 8rem;
 
 }
 }
@@ -76,6 +76,7 @@ body{
  .logoWrapper{
      display: flex;
      flex-direction: row;
+
  }
 
  @media  (min-width: 285px) {
