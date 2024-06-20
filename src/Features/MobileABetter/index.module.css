@@ -1,0 +1,52 @@
+.mainCont{
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 22rem;
+    background-image: linear-gradient(90deg, #333C45 0%, #363D47 35%,#72635E, #CBA16E 100%);
+    gap: 2rem;
+}
+
+@media (max-width: 375px) {
+    .mainCont{
+        display: flex;
+        flex-direction: column;
+        width: 22.50rem;
+        height: 35rem;
+        background-image: linear-gradient(90deg, #333C45 0%, #363D47 35%,#72635E, #CBA16E 100%);
+        gap: 2rem;
+    }
+
+}
+
+.mainCont .textDiv{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    color: white;
+}
+
+.firstDiv{
+    background-image: linear-gradient(90deg, rgba(48, 100, 200, 0.15) 0%, #363D47 35%, #b25615, #CBA16E 100%);
+    width: 10rem;
+    height: 15rem;
+    color: black;
+}
+
+.secondDiv{
+    background-image: linear-gradient(90deg, rgba(48, 100, 200, 0.15) 0%, #363D47 35%, #b25615, #CBA16E 100%);
+    width: 10rem;
+    height: 14rem;
+    color: black;
+
+}
+
+.thirdDiv{
+    background-image: linear-gradient(90deg, rgba(48, 100, 200, 0.15) 0%, #363D47 35%, #b25615, #CBA16E 100%);
+    width: 10rem;
+    height: 13rem;
+}
+

@@ -1,5 +1,5 @@
 import styles from "./index.module.css"
-const ABetter = ()=>{
+const DesktopABetter = ()=>{
      return(
          <div className={styles.mainCont}>
 
@@ -31,4 +31,4 @@ const ABetter = ()=>{
      )
 }
 
-export  default ABetter;
+export  default DesktopABetter;

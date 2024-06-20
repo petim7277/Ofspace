@@ -56,7 +56,6 @@
 
 @media  (max-width :375px) {
     .semiCont h1{
-        background-color: #50be19;
         font-size: 22px;
         margin-left: 0.15rem;
     }
