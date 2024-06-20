@@ -1,4 +1,4 @@
-import HeroSection from "./MiddleSection";
+import MiddleSection from "./MiddleSection";
 import GuidanceSection from "./GuidanceSection";
 import ABetter from "./ABetter";
 import MortgageRate from "./MortgageRate";
@@ -8,7 +8,7 @@ import YourPerfect from "./YourPerfect";
 const Features = ()=>{
     return(
         <>
-        {/*<HeroSection/>*/}
+        <MiddleSection/>
         {/*<GuidanceSection/>*/}
         {/*<ABetter/>*/}
         {/*<MortgageRate/>*/}

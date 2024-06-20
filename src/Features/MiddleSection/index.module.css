@@ -12,7 +12,6 @@
         flex-direction: column;
         background-color: #FFFFFF;
         gap: 3rem;
-        margin-top: -1rem;
         padding-left: 1rem;
     }
 
@@ -28,11 +27,8 @@
 
 @media  (max-width :375px) {
     .pattern {
-        margin-left: -2rem;
-        padding-left: -2rem;
-        padding-top: -10rem;
-        justify-items: center;
-        align-content: center;
+        margin-left: 1rem;
+        margin-top: 5rem;
         width: 10rem;
         height: 7rem;
         background: linear-gradient( 90deg, #333C45 0%, #363D47 35%,#72635E, #CBA16E 100%);
@@ -41,6 +37,19 @@
 
 .mainText p{
     color: #8a3e08;
+}
+
+@media  (max-width :375px) {
+    .mainText p{
+        font-size: 13px;
+    }
+}
+
+@media  (max-width :375px) {
+    .mainText h1{
+        margin-left: 0.10rem;
+        font-size: 20px;
+    }
 }
 
  .mainText .Activate{

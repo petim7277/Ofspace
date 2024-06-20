@@ -1,7 +1,7 @@
 import styles from ".//index.module.css";
 import phone from "../../Assets/phone.png";
 
-const HeroSection = ()=>{
+const MiddleSection = ()=>{
     return(
       <div className={styles.mainCont}>
           <div className={styles.pattern}>
@@ -29,4 +29,4 @@ const HeroSection = ()=>{
       </div>
     )
 }
-export default HeroSection;
+export default MiddleSection;
