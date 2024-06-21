@@ -4,7 +4,7 @@ import capital from "../../Assets/capitalLogo.png"
 
 const Reviews = ()=>{
     return(
-        <div className={styles. mainCont}>
+        <div className={styles.mainCont}>
           <div className={styles.divWrapper}>
          <div className={styles.mainDiv}>
            <img src={logo} alt={"ofspace logo"}/>

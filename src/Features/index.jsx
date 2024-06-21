@@ -12,7 +12,7 @@ const Features = ()=>{
         <GuidanceSection/>
         <ABetter/>
         <MortgageRate/>
-        {/*<Reviews/>*/}
+        <Reviews/>
         {/*<YourPerfect/>*/}
         </>
     )
