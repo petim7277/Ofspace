@@ -6,30 +6,30 @@ const Footer = ()=>{
         <div className={styles.mainCont}>
 
         <div className={styles.wrapperDiv}>
-        <div className={styles.firstDiv}>
+            <div className={styles.firstDiv}>
 
-                <div className={styles.logoWrap}>
+                    <div className={styles.logoWrap}>
 
-                    <div>
-                        <img src={logo} alt={"OfSpace Company Logo"} className={styles.mainImg}/>
+                        <div>
+                            <img src={logo} alt={"OfSpace Company Logo"} className={styles.mainImg}/>
+                        </div>
+
+                        <div className={styles.mainText}>
+                            <h1 className={styles.mainTextHeader}>Ofspace</h1>
+                            <p>Digital  Agency</p>
+                        </div>
+
                     </div>
-
-                    <div className={styles.mainText}>
-                        <h1 className={styles.mainTextHeader}>Ofspace</h1>
-                        <p>Digital  Agency</p>
-                    </div>
-
+                    <p>Bankrate.com is an independent,<br/>
+                        advertising-supported publisher<br/>
+                        and comparison service .</p>
+                     <div className={styles.imgDiv}>
+                         <img src={logo} alt={"ofspace logo"}/>
+                         <img src={logo} alt={"ofspace logo"}/>
+                         <img src={logo} alt={"ofspace logo"}/>
+                     </div>
                 </div>
-                <p>Bankrate.com is an independent,<br/>
-                    advertising-supported publisher<br/>
-                    and comparison service .</p>
-                 <div className={styles.imgDiv}>
-                     <img src={logo} alt={"ofspace logo"}/>
-                     <img src={logo} alt={"ofspace logo"}/>
-                     <img src={logo} alt={"ofspace logo"}/>
-                 </div>
             </div>
-        </div>
 
         <div className={styles.secondDiv}>
             <h4>ABOUT</h4>
