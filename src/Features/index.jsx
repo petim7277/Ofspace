@@ -13,7 +13,7 @@ const Features = ()=>{
         <ABetter/>
         <MortgageRate/>
         <Reviews/>
-        {/*<YourPerfect/>*/}
+        <YourPerfect/>
         </>
     )
 }

@@ -10,19 +10,44 @@
     gap: 20rem;
 
 }
+
+@media (max-width: 375px) {
+    .mainCont{
+        display: flex;
+        flex-direction: column;
+        width: 17.50rem;
+        height: 30rem;
+        margin-left: 1.90rem;
+    }
+}
 .firstDiv{
     margin-left: 4rem;
 
 }
+
+
 
 .firstDiv p{
     padding-top:3rem ;
     color: #be601d;
 }
 
+@media (max-width: 375px) {
+    .firstDiv p {
+        font-size: 14px;
+
+    }
+}
+
 .firstDiv h1{
     padding-top:-2rem ;
     color: #FFFFFF;
+}
+
+@media (max-width: 375px) {
+    .firstDiv h1{
+        font-size: 22px;
+    }
 }
 
 .firstDiv button{
@@ -33,10 +58,27 @@
     border-color: #be601d;
 }
 
+@media (max-width: 375px) {
+    .firstDiv button{
+        width: 6rem;
+        margin-top: 1rem;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
 .secondDiv{
     background-color:  white;
     width: 17rem;
     height: 21rem;
     border-color: #8a3e08;
     border-radius: 10px;
+}
+
+@media (max-width: 375px) {
+    .secondDiv{
+        width: 7rem;
+        height: 5rem;
+    }
 }
